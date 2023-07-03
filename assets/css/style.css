@@ -10,7 +10,8 @@ body nav ul li img{
 body{
     margin: 0;
     padding: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px ;
+    position: relative;
 }
 body nav ul li{
     display: inline-block;
@@ -48,7 +49,7 @@ align-items: center;
     margin-right: 10px;
   }
 #title-page li:last-child:hover {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.45);
 
 }
 
@@ -123,11 +124,13 @@ button img{
     margin-top: 10px;
     padding-top: 100px;
     display: flex;
+    position: absolute;
   }
   footer ul{
     display: inline-block;
     list-style-type: none;
     color:white;
+    justify-content: center;
     justify-content: space-evenly;
 
 
