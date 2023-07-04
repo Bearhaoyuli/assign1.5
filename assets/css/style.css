@@ -12,11 +12,28 @@ body{
     padding: 0;
     margin-bottom: 50px ;
     position: relative;
+    justify-content: flex-end;
 }
 body nav ul li{
     display: inline-block;
 }
 
+
+nav ul li:last-child button{
+background-color: white;
+border: none;
+width: 70px;
+height: 50px;
+padding-right: 0px;
+
+
+}
+
+nav ul li:last-child button:hover{
+  background-color: rgba(128, 128, 128, 0.311);
+  border: none;
+  
+  }
 
 nav {
     margin: 0;
@@ -74,7 +91,7 @@ button img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: left; /* Added */
+    text-align: left; 
 
   }
   
@@ -101,7 +118,11 @@ button img{
   }
 
   .button-with-image img {
-    margin-right: 15px; 
+    margin-right: auto; 
+
+  }
+  .button-with-image p {
+    margin-right: auto;
   }
 
 #last-button{
