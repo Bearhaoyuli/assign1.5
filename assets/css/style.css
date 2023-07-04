@@ -146,15 +146,43 @@ button img{
     padding-top: 100px;
     display: flex;
     position: absolute;
+    top :700px
   }
   footer ul{
-    display: inline-block;
+    margin: 0px 100px 100px  100px;
     list-style-type: none;
     color:white;
-    justify-content: center;
-    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    width: 100%;
+  }
 
+  footer ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  footer ul li a:hover{
+    color: white;
+    text-decoration: underline;
+  }
 
+  footer ul li:first-child{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  footer ul li:first-child:hover{
+    color: white;
+    text-decoration: underline;
+  }
 
+  .social-icons{
+    display: contents;
+  }
+  .social-icons li img{
+    width: 20px;
+    height: 20px;
+    background-color: #030202;
   }
   
